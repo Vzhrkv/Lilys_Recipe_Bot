@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "lilys-recipes"
+version = "0.1.0"
+description = ""
+authors = ["Vzhrkv <lieden57@gmail.com>"]
+readme = "README.md"
+packages = [{include = "lilys_recipes"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
